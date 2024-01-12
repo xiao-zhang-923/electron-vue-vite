@@ -6,7 +6,7 @@
     </div>
     <div class="menu">
       <div class="menuList">
-        <el-popover placement="bottom-start" width="auto" trigger="click">
+        <el-popover placement="bottom-start" width="auto" trigger="hover">
           <template #reference>
             <div class="menuItem" @click="clickTabs('1', '/')" :class="{ active: activeMenu === '1' }"><span>{{
               $t("LAYOUTHEADER_MENU_PRODUCTS") }}</span>
