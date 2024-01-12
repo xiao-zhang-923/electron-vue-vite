@@ -1,12 +1,12 @@
 <template>
   <div class="pass_header">
     <div class="icon">
-      <SvgIcon icon-class="platIcon"></SvgIcon>
+      <SvgIcon name="platIcon"></SvgIcon>
       <span>EASE-PAAS</span>
     </div>
     <div class="menu">
       <div class="menuList">
-        <el-popover placement="bottom-start" width="auto" trigger="hover">
+        <el-popover placement="bottom-start" width="auto" trigger="click">
           <template #reference>
             <div class="menuItem" @click="clickTabs('1', '/')" :class="{ active: activeMenu === '1' }"><span>{{
               $t("LAYOUTHEADER_MENU_PRODUCTS") }}</span>
@@ -17,30 +17,30 @@
               <div class="payAndService">
                 <div class="counter_title">{{ $t('HEADER_CHILD_MENU1_TITLE') }}</div>
                 <div class="counter_item">
-                  <SvgIcon iconClass="development"></SvgIcon>
+                  <SvgIcon name="development"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU1_ITEM_1') }}</span>
                 </div>
                 <div class="counter_item">
-                  <SvgIcon iconClass="sourceCode"></SvgIcon>
+                  <SvgIcon name="sourceCode"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU1_ITEM_2') }}</span>
                 </div>
                 <div class="counter_item">
-                  <SvgIcon iconClass="ecologicalApp"></SvgIcon>
+                  <SvgIcon name="ecologicalApp"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU1_ITEM_3') }}</span>
                 </div>
               </div>
               <div class="app">
                 <div class="counter_title">{{ $t('HEADER_CHILD_MENU2_TITLE') }}</div>
                 <div class="counter_item hover">
-                  <SvgIcon iconClass="IAM"></SvgIcon>
+                  <SvgIcon name="iam"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_1') }}</span>
                 </div>
                 <div class="counter_item hover">
-                  <SvgIcon iconClass="doubleCarbon"></SvgIcon>
+                  <SvgIcon name="doubleCarbon"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_2') }}</span>
                 </div>
                 <div class="counter_item hover">
-                  <SvgIcon iconClass="ESG"></SvgIcon>
+                  <SvgIcon name="esg"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_3') }}</span>
                 </div>
               </div>
@@ -242,7 +242,7 @@ export default defineComponent({
   }
 
   &_item {
-    @include fontStyle(14px, var(--layoutTextColor), 400);
+   
     @include flex(row, flex-start, center);
     height: 32px;
     margin-left: 24px;
@@ -250,6 +250,7 @@ export default defineComponent({
 
     span {
       margin-left: 5px;
+      @include fontStyle(14px, var(--layoutTextColor), 400);
     }
   }
 

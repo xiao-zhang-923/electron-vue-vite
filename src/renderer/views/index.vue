@@ -3,7 +3,7 @@
     <div class="title">{{ $t('INDEX_TITLE') }}</div>
     <div class="title_default" v-html="$t('INDEX_TITLE_DEFAULT_1')"></div>
     <div class="desc">{{ $t('INDEX_DESC_1') }}</div>
-    <SvgIcon iconClass="desc" class="desc_logo"></SvgIcon>
+    <SvgIcon name="desc" class="desc_logo"></SvgIcon>
     <div class="container_item">
       <div class="container_item_icon">
         <el-image src="./assets/images/sso.png"></el-image>
@@ -46,7 +46,7 @@
     <div class="ecosphere_bg">
       <div class="title_default width marginTop80" v-html="$t('INDEX_TITLE_DEFAULT_2')"></div>
       <div class="desc">{{ $t('INDEX_DESC_2') }}</div>
-      <SvgIcon iconClass="desc" class="desc_logo marginTop48"></SvgIcon>
+      <SvgIcon name="desc" class="desc_logo marginTop48"></SvgIcon>
       <div class="ecosphere">
         <div class="text text1" :class="{ 'entext en_text1': lang == 'en' }">{{ $t('ECOSPHERE_ITEM1') }}</div>
         <div class="text text2" :class="{ 'entext en_text2': lang == 'en' }">{{ $t('ECOSPHERE_ITEM2') }}</div>
@@ -71,23 +71,23 @@
     </div>
     <div class="start">
       <div class="title_default marginTop80" v-html="$t('INDEX_TITLE_DEFAULT_3')"></div>
-      <SvgIcon iconClass="desc" class="desc_logo marginTop48"></SvgIcon>
+      <SvgIcon name="desc" class="desc_logo marginTop48"></SvgIcon>
       <div class="start_btn blue">{{ $t('START_BTN_1') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_title">{{ $t('START_TITLE') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_desc">{{ $t('START_DESC_1') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_desc">{{ $t('START_DESC_2') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_desc">{{ $t('START_DESC_3') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_desc">{{ $t('START_DESC_4') }}</div>
-      <SvgIcon iconClass="union_down" class="start_down"></SvgIcon>
+      <SvgIcon name="union_down" class="start_down"></SvgIcon>
       <div class="start_btn yellow">{{ $t('START_BTN_2') }}</div>
     </div>
     <div class="title_default marginTop80" v-html="$t('INDEX_TITLE_DEFAULT_4')"></div>
-    <SvgIcon iconClass="desc" class="desc_logo marginTop48"></SvgIcon>
+    <SvgIcon name="desc" class="desc_logo marginTop48"></SvgIcon>
     <div class="reason">
       <div class="reason_item">
         <div class="reason_item_text">

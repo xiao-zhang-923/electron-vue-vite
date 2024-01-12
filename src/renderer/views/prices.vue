@@ -14,9 +14,9 @@
         <div class="line"></div>
         <ul class="prices_list_item_ul">
           <li class="prices_list_item_ul_li" v-for="(its, index) in item.child" :key="its">
-            <SvgIcon iconClass="five-pointed" v-if="['enterprise', 'customized'].includes(item.id) && index == 0">
+            <SvgIcon name="five-pointed"  color='var(--color1)' v-if="['enterprise', 'customized'].includes(item.id) && index == 0">
             </SvgIcon>
-            <SvgIcon iconClass="check-mark" v-else></SvgIcon>
+            <SvgIcon name="check-mark" v-else></SvgIcon>
             <span :class="{ 'cyan': ['enterprise', 'customized'].includes(item.id) && index == 0 }">{{ its }}</span>
           </li>
         </ul>
@@ -150,7 +150,6 @@ export default defineComponent({
       }
 
       &_ul {
-        @include fontStyle(14px, var(--layoutTextColor), 400);
         padding-left: 0;
         list-style: none;
         flex: 1;
@@ -162,7 +161,7 @@ export default defineComponent({
 
           span {
             margin-left: 10px;
-
+            @include fontStyle(14px, var(--layoutTextColor), 400);
             &.cyan {
               color: var(--color1);
             }
