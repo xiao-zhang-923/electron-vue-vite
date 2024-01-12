@@ -1,0 +1,146 @@
+export default {
+  LAYOUTHEADER_MENU_PRODUCTS: "Products",
+  LAYOUTHEADER_MENU_DOCUMENTS: "Documentation",
+  LAYOUTHEADER_MENU_PRICES: "Pricing",
+  LAYOUTHEADER_MENU_CONTACTS: "Contact",
+  LANGUAGE_ZH: "Chinese",
+  LANGUAGE_EN: "English",
+  LANGUAGE_JA: "Japanese",
+  BUTTON_START: "Start",
+  FOOTER_HElPCENTER: "HelpCenter",
+  FOOTER_MANUAL: "user's manual",
+  FOOTER_CONRTACT: "Contact",
+  FOOTER_EMAIL: "e-mail：",
+  FOOTER_TIME: "office time：weekday 9:00 - 12:00 ｜ 13:30 - 18:00",
+  PRICES_TITLE: "EASE-PAAS Private Deployment",
+  PRICES_DESC:
+    "EASE-PAAS private deployment enables one-click private cloud construction, offering comprehensive support for diverse enterprise application needs while keeping maintenance costs minimal. It rapidly responds to the demands of digital transformation.",
+  PRICES_BASIC_TITLE: "Standard",
+  PRICES_BASIC_DESC: "Suitable for developer testing or POC demos",
+  PRICES_BASIC_LIST_ITEM1: "Multitenancy",
+  PRICES_BASIC_LIST_ITEM2: "App Market",
+  PRICES_BASIC_LIST_ITEM3: "Service Provider Center",
+  PRICES_BASIC_LIST_ITEM4: "Access Management",
+  PRICES_BASIC_LIST_ITEM5: "Ticketing Service",
+  PRICES_BASIC_LIST_ITEM6: "Metering/Quota",
+  PRICES_BASIC_LIST_ITEM7: "Middleware Development",
+  PRICES_BASIC_BUTTON: "Sign up for a trial",
+  PRICES_ENTERPRISE_TITLE: "Enterprise",
+  PRICES_ENTERPRISE_DESC: "Suitable for enterprise production environments",
+  PRICES_ENTERPRISE_LIST_ITEM1: "Private Deployment",
+  PRICES_ENTERPRISE_LIST_ITEM2: "Response within 8 working hours",
+  PRICES_ENTERPRISE_LIST_ITEM3: "Multitenancy",
+  PRICES_ENTERPRISE_LIST_ITEM4: "App Market",
+  PRICES_ENTERPRISE_LIST_ITEM5: "Service Provider Center",
+  PRICES_ENTERPRISE_LIST_ITEM6: "Access Management",
+  PRICES_ENTERPRISE_LIST_ITEM7: "Ticketing Service",
+  PRICES_ENTERPRISE_LIST_ITEM8: "Metering/Quota",
+  PRICES_ENTERPRISE_LIST_ITEM9: "Middleware Development",
+  PRICES_ENTERPRISE_BUTTON: "Contact us",
+  PRICES_CUSTOMIZED_TITLE: "Customized",
+  PRICES_CUSTOMIZED_DESC:
+    "Suitable for large-scale clusters and large enterprise clients",
+  PRICES_CUSTOMIZED_LIST_ITEM1:
+    "Customized Development and Source Code Delivery",
+  PRICES_CUSTOMIZED_LIST_ITEM2: "Large Scale Cluster",
+  PRICES_CUSTOMIZED_LIST_ITEM3: "Private Deployment",
+  PRICES_CUSTOMIZED_LIST_ITEM4: "Response within 8 working hours",
+  PRICES_CUSTOMIZED_LIST_ITEM5: "Multitenancy",
+  PRICES_CUSTOMIZED_LIST_ITEM6: "App Market",
+  PRICES_CUSTOMIZED_LIST_ITEM7: "Service Provider Center",
+  PRICES_CUSTOMIZED_LIST_ITEM8: "Access Management",
+  PRICES_CUSTOMIZED_LIST_ITEM9: "Ticketing Service",
+  PRICES_CUSTOMIZED_LIST_ITEM10: "Metering/Quota",
+  PRICES_CUSTOMIZED_LIST_ITEM11: "Middleware Development",
+  PRICES_CUSTOMIZED_BUTTON: "Contact us",
+  CONTACT_TITLE: "Business Consultation",
+  CONTACT_NAME: "Name",
+  CONTACT_ENTERPRISE: "Company Name",
+  CONTACT_EMAIL: "Company Email",
+  CONTACT_PRODUCTREQUIRE: "What are your product requirements?",
+  CONTACT_OPTION1: "Want to deploy privately",
+  CONTACT_OPTION2: "Want customized development",
+  CONTACT_OPTION3: "Hope the source code is delivered",
+  CONTACT_OPTION4: "other",
+  CONTACT_SAYTOUS: "Anything else you would like to say to us?",
+  CONTACT_INPUT_PLACEHOLDER: "Please enter",
+  CONTACT_INPUT_EMAIL_ERROR: "Please input the correct email address",
+  CONTACT_BUTTON: "Submit",
+  INDEX_TITLE: "Digital Foundation Platform:EASE-PaaS",
+  INDEX_TITLE_DEFAULT_1: "<span>Three Key Use Cases</span>",
+  INDEX_DESC_1:
+    "Creating a flexible system for organizational authority management and a seamless multi-application collaborative work experience.",
+  INDEX_ITEM1_TITLE: "Unified Authentication and Authorization Framework",
+  INDEX_ITEM1_CHILD_1: "Unified Authentication and Authorization Framework",
+  INDEX_ITEM1_CHILD_2:
+    "Convenient Access Control for Employees and Departments",
+  INDEX_ITEM1_CHILD_3:
+    "Host all your internal applications in an Enterprise App Marketplace",
+  INDEX_ITEM2_TITLE: "Empower your core app with B2B capabilities",
+  INDEX_ITEM2_CHILD_1:
+    "Quickly build a B2B platform around your core application with built-in order, payment, and notification functions. Start managing all tenant organizations and their customers instantly.",
+  INDEX_ITEM2_CHILD_2:
+    "Manage tenant permissions and empower tenants to manage themselves.",
+  INDEX_ITEM2_CHILD_3:
+    "Easily scale based on the size of tenants and users, leveraging a cloud-native tech stack",
+  INDEX_ITEM3_TITLE: "Build an app ecosystem focused on a specific domain",
+  INDEX_ITEM3_CHILD_1:
+    "Integrate applications from both your organization and business partners to rapidly create an application platform focus on a specific business domain",
+  INDEX_ITEM3_CHILD_2:
+    "Partners can apply to publish their applications as software providers",
+  INDEX_ITEM3_CHILD_3:
+    "The operations team reviews application submission requests for publication and manages partner organizations and customer organizations.",
+  INDEX_TITLE_DEFAULT_2:
+    "A cloud-native solution with <span>Kubernetes+IAM</span> at its core",
+  INDEX_DESC_2:
+    "A one-stop solution to address the challenges posed by multiple applications, multiple tenants, unified authentication and authorization, and unified operations.",
+  ECOSPHERE_ITEM1: "Ecosystem Partners",
+  ECOSPHERE_ITEM2: "Tenant",
+  ECOSPHERE_ITEM3: "Service Provider",
+  ECOSPHERE_ITEM4: "Application Ecosystem",
+  ECOSPHERE_ITEM5: "Open Capabilities",
+  ECOSPHERE_ITEM6: "Basic Capabilities",
+  ECOSPHERE_ITEM7: "Multi-tenant Container Management",
+  ECOSPHERE_ITEM8: "Unified Authorization Center",
+  PRODUCTBENEFITS_TITLE: "Product Benefits",
+  PRODUCTBENEFITS_ITEM1:
+    "Within one week, streamline authentication and authorization for internal corporate applications, ensuring a more secure and timely management of internal application resources.",
+  PRODUCTBENEFITS_ITEM2:
+    "Launch your own B2B application distribution platform in a matter of weeks, not months.",
+  PRODUCTBENEFITS_ITEM3:
+    "Integrate your applications and those of your partners on the platform, and deliver a comprehensive solution to your customers within a month.",
+  INDEX_TITLE_DEFAULT_3: "How it works",
+  INDEX_TITLE_DEFAULT_4: "Why choose us",
+  REASON_ITEM1_TITLE: "The most powerful B2B app marketplace platform",
+  REASON_ITEM1_DESC:
+    "Built on a unified cloud-native infrastructure, it allows you to quickly integrate your own and partner applications and offer them to numerous client organizations for subscription.",
+  REASON_ITEM2_TITLE: "Rich Success Stories",
+  REASON_ITEM2_DESC:
+    "Based on this product, we have assisted numerous clients in the energy, education, chemical, ESG, and carbon emissions management sectors in building their own B2B app marketplace. ",
+  REASON_ITEM3_TITLE: "Customizable Development",
+  REASON_ITEM3_DESC:
+    "We offer customized feature development to meet your specific needs and integrate your applications as per your customization requirements.",
+  REASON_ITEM4_TITLE: "Private Deployment Options",
+  REASON_ITEM4_DESC:
+    "The product can be deployed in your private cloud or in a public cloud environment.",
+  START_BTN_1: "Access",
+  START_TITLE:
+    "Register as a tenant administrator, invite and manage members of your organization. ",
+  START_DESC_1:
+    "Explore product features by using the demo app in the application marketplace.",
+  START_DESC_2:
+    "Apply to activate an exclusive instance and experience the full range of product features in an operations administrator role.",
+  START_DESC_3:
+    "Within your exclusive instance, integrate new applications into the app marketplace for both your organization and your partners.",
+  START_DESC_4:
+    "Within your exclusive instance, create organizations for client companies and manage their subscription to the rich array of applications in the app marketplace.",
+  START_BTN_2: "USE",
+  HEADER_CHILD_MENU1_TITLE: "Delivery and service",
+  HEADER_CHILD_MENU1_ITEM_1: "Customized development",
+  HEADER_CHILD_MENU1_ITEM_2: "Source code delivery",
+  HEADER_CHILD_MENU1_ITEM_3: "Ecological app integration",
+  HEADER_CHILD_MENU2_TITLE: "App products",
+  HEADER_CHILD_MENU2_ITEM_1: "IAM",
+  HEADER_CHILD_MENU2_ITEM_2: "Double carbon",
+  HEADER_CHILD_MENU2_ITEM_3: "ESG",
+};

@@ -1,0 +1,28 @@
+import { createApp } from "vue";
+import App from "./App.vue";
+import store from "./store";
+import router from "./router";
+// import Icons from "@/components/icons";
+// import SvgIcon from "@/components/icons/SvgIcon.vue";
+import i18n from "@/locals/index";
+import { ElPopover,ElInput,ElForm,ElSelect,ElOption,ElImage,ElConfigProvider,ElFormItem } from "element-plus";
+import 'element-plus/dist/index.css';
+import 'element-plus/theme-chalk/dark/css-vars.css';
+import "./styles/color.scss";
+import "@/untils/rem";
+
+const app = createApp(App);
+// Icons.install();
+// app.component("SvgIcon", SvgIcon);
+app.component("ElPopover", ElPopover);
+app.component("ElForm", ElForm);
+app.component("ElFormItem", ElFormItem);
+app.component("ElInput", ElInput);
+app.component("ElSelect", ElSelect);
+app.component("ElOption", ElOption);
+app.component("ElImage", ElImage);
+app.component("ElConfigProvider", ElConfigProvider);
+app.use(i18n);
+app.use(router);
+app.use(store);
+app.mount("#app");

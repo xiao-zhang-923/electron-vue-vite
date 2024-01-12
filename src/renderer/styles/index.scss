@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--layputBodyBgColor);
+}
+ul{
+  margin: 0;
+  padding-left: 0;
+}
+.el-button {
+  height: 40px !important;
+}
+.el-popover.el-popper{
+  min-width: auto;
+}
+@mixin fontStyle($fontSize, $color, $fontWeight) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+}
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
