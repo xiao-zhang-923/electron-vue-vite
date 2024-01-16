@@ -61,7 +61,9 @@
     </div>
     <div class="login">
       <div class="language">
-        <el-popover placement="bottom" :width="100" trigger="hover">
+        <SvgIcon name="language_zh" v-if="lang == 'zh'" @click="currentLanuage('en')"></SvgIcon>
+        <SvgIcon name="language_en" v-if="lang == 'en'" @click="currentLanuage('zh')"></SvgIcon>
+        <!-- <el-popover placement="bottom" :width="100" trigger="hover">
           <template #reference>
             <span class="language_title">
               <svg-icon icon-class="language"></svg-icon>
@@ -73,7 +75,7 @@
             <div class="language_item" @click="currentLanuage('en')">{{ $t('LANGUAGE_EN') }}</div>
             <div class="language_item" @click="currentLanuage('ja')">{{ $t('LANGUAGE_JA') }}</div>
           </template>
-        </el-popover>
+        </el-popover> -->
       </div>
       <div class="layout_button">{{ $t('BUTTON_START') }}</div>
     </div>
@@ -197,15 +199,12 @@ export default defineComponent({
     @include flex(row, center, center);
 
     .language {
-      span {
-        @include flex(row, center, center);
-        @include fontStyle(16px, var(--layoutTextColor), 400);
-
-        .svg-icon {
-          margin-right: 5px;
-        }
+      cursor: pointer;
+      .svg-icon {
+        margin-right: 5px;
+        width: 40px !important;
+        height: 50px !important;
       }
-
     }
 
     .layout_button {
@@ -242,7 +241,7 @@ export default defineComponent({
   }
 
   &_item {
-   
+
     @include flex(row, flex-start, center);
     height: 32px;
     margin-left: 24px;
