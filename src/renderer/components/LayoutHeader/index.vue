@@ -32,15 +32,15 @@
               <div class="app">
                 <div class="counter_title">{{ $t('HEADER_CHILD_MENU2_TITLE') }}</div>
                 <div class="counter_item hover">
-                  <SvgIcon name="iam"></SvgIcon>
+                  <SvgIcon name="IAM"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_1') }}</span>
                 </div>
                 <div class="counter_item hover">
-                  <SvgIcon name="doubleCarbon"></SvgIcon>
+                  <SvgIcon name="doublecarbon"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_2') }}</span>
                 </div>
                 <div class="counter_item hover">
-                  <SvgIcon name="esg"></SvgIcon>
+                  <SvgIcon name="ESG"></SvgIcon>
                   <span>{{ $t('HEADER_CHILD_MENU2_ITEM_3') }}</span>
                 </div>
               </div>
