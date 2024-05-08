@@ -30,7 +30,7 @@ import { defineComponent, reactive, toRefs, unref, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 export default defineComponent({
   name: "contact",
-  setup(props, ctx) {
+  setup() {
     const { t } = useI18n();
     const refForm = ref()
     const state = reactive({

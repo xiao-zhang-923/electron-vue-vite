@@ -36,7 +36,7 @@ import i18n from '@/locals';
 import { useRouter } from 'vue-router';
 export default defineComponent({
   name: 'pirces',
-  setup(props, ctx) {
+  setup() {
     const router = useRouter()
     const store = useStore();
     const { t } = i18n.global;
